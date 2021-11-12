@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "118466204042",
+    "project_id": "plas-tech-327404",
+    "storage_bucket": "plas-tech-327404.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:118466204042:android:14e5b0b67e5c1244987873",
+        "android_client_info": {
+          "package_name": "com.example.plas_tech"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "118466204042-065ot2h4m0si0a61cji5l9pdhal33pso.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.plas_tech",
+            "certificate_hash": "e85210576a014020f2c49677acba321e24eddf7e"
+          }
+        },
+        {
+          "client_id": "118466204042-f3u74bf62egj68uodd1v6m2e137796hd.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBW-T9RuWQAzJo5UCFfaUe0jrJ9IUo45-k"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "118466204042-f3u74bf62egj68uodd1v6m2e137796hd.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
