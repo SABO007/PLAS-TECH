@@ -7,7 +7,11 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 
+import com.google.firebase.auth.FirebaseAuth;
+
 public class AdminUser extends AppCompatActivity {
+
+    FirebaseAuth firebaseAuth;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -15,6 +19,8 @@ public class AdminUser extends AppCompatActivity {
         setContentView(R.layout.adminuser);
         Button ButtonAdmin;
         ButtonAdmin = findViewById(R.id.ButtonAdmin);
+
+        firebaseAuth = FirebaseAuth.getInstance();
 
         ButtonAdmin.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -32,9 +38,17 @@ public class AdminUser extends AppCompatActivity {
             @Override
             public void onClick(View view) {
 
-                Intent categoryIntent = new Intent(AdminUser.this, User.class);
-                startActivity(categoryIntent);
-                finish();
+                if(firebaseAuth.getUid() == null) {
+
+                    Intent categoryIntent = new Intent(AdminUser.this, User.class);
+                    startActivity(categoryIntent);
+                    finish();
+                }
+                else {
+                    Intent categoryIntent = new Intent(AdminUser.this, customer.class);
+                    startActivity(categoryIntent);
+
+                }
             }
         });
         Button Buttonback1;

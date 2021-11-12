@@ -14,11 +14,11 @@
       },
       "oauth_client": [
         {
-          "client_id": "118466204042-065ot2h4m0si0a61cji5l9pdhal33pso.apps.googleusercontent.com",
+          "client_id": "118466204042-21s1hovepukqgtbgreunm8n6571vk5a4.apps.googleusercontent.com",
           "client_type": 1,
           "android_info": {
             "package_name": "com.example.plas_tech",
-            "certificate_hash": "e85210576a014020f2c49677acba321e24eddf7e"
+            "certificate_hash": "e67c7244f967a1a714140a9db909e149f34ee0ff"
           }
         },
         {
@@ -28,7 +28,7 @@
       ],
       "api_key": [
         {
-          "current_key": "AIzaSyBW-T9RuWQAzJo5UCFfaUe0jrJ9IUo45-k"
+          "current_key": "AIzaSyBOi3Mg48rMLWaWr2u1ObjoJ02GzTjFRTY"
         }
       ],
       "services": {

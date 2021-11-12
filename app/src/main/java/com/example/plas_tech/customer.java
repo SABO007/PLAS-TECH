@@ -7,11 +7,21 @@ import android.widget.Button;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import com.google.firebase.auth.FirebaseAuth;
+
 public class customer extends AppCompatActivity {
+    FirebaseAuth firebaseAuth;
     @Override
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.customer);
+
+        firebaseAuth = FirebaseAuth.getInstance();
+
+        if(firebaseAuth.getUid() == null) {
+            startActivity(new Intent(getApplicationContext(), userLogin.class));
+        }
+
         Button CustomerButton2;
         CustomerButton2=findViewById(R.id.Customerbutton2);
         CustomerButton2.setOnClickListener(
@@ -30,6 +40,7 @@ public class customer extends AppCompatActivity {
                 new View.OnClickListener() {
                     @Override
                     public void onClick(View view) {
+                        FirebaseAuth.getInstance().signOut();
                         Intent categoryIntent=new Intent(customer.this,User.class);
                         startActivity(categoryIntent);
                         finish();
