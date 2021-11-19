@@ -73,7 +73,7 @@ public class userLogin extends AppCompatActivity {
                     FirebaseUser user = firebaseAuth.getCurrentUser();
                     Intent i = new Intent(getApplicationContext(), customer.class);
                     startActivity(i);
-
+                    finish();
 
 //                                    updateUI(user);
                 } else {

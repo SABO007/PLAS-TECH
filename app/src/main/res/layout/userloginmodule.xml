@@ -40,13 +40,64 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
     ]]>
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar3"
+        android:layout_width="420dp"
+        android:layout_height="100dp"
+        android:background="@color/darkblue"
+        android:minHeight="?attr/actionBarSize"
+        android:theme="?attr/actionBarTheme"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.555"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
     <Button
         android:id="@+id/buttonback6"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="BACK"
+        android:background="@color/darkblue"
         android:textSize="20sp"
         android:textColor="@color/white"
         android:textStyle="bold"
@@ -59,10 +110,10 @@
 
     <ImageView
         android:id="@+id/imageView13"
-        android:layout_width="106dp"
-        android:layout_height="94dp"
-        app:layout_constraintBottom_toBottomOf="parent"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
         app:srcCompat="@drawable/logo" />
 
     <Button
@@ -71,34 +122,36 @@
         android:layout_height="105dp"
         android:text="LOGIN"
         android:textColor="@color/white"
+        android:background="@color/darkblue"
         android:textSize="35sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintHorizontal_bias="0.547"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.143" />
+        app:layout_constraintVertical_bias="0.285" />
 
     <Button
         android:id="@+id/ButtonSignup"
         android:layout_width="210dp"
         android:layout_height="105dp"
         android:text="SIGNUP"
+        android:background="@color/darkblue"
         android:textColor="@color/white"
         android:textSize="35sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintHorizontal_bias="0.547"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.619" />
+        app:layout_constraintVertical_bias="0.728" />
 
     <TextView
         android:id="@+id/textView"
         android:layout_width="76dp"
         android:layout_height="69dp"
-        android:background="@color/green"
-        android:text=" OR"
+        android:text="OR"
+        android:textAlignment="center"
         android:textColor="@color/black"
         android:textSize="35sp"
         android:textStyle="bold"
@@ -108,4 +161,12 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/ButtonLogin"
         app:layout_constraintVertical_bias="0.573" />
+
+    <ImageView
+        android:id="@+id/imageView22"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/bennett" />
 </androidx.constraintlayout.widget.ConstraintLayout>

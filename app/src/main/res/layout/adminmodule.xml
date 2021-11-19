@@ -4,15 +4,28 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/blue">
+    android:background="@color/lightred">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar7"
+        android:layout_width="420dp"
+        android:layout_height="100dp"
+        android:background="@color/toodarkred"
+        android:minHeight="?attr/actionBarSize"
+        android:theme="?attr/actionBarTheme"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
     <Button
         android:id="@+id/buttonback2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="BACK"
-        android:textColor="@color/black"
+        android:textColor="@color/white"
         android:textStyle="bold"
+        android:background="@color/toodarkred"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.08"
@@ -22,10 +35,10 @@
 
     <ImageView
         android:id="@+id/imageView4"
-        android:layout_width="106dp"
-        android:layout_height="94dp"
-        app:layout_constraintBottom_toBottomOf="parent"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
         app:srcCompat="@drawable/logo" />
 
     <Button
@@ -33,20 +46,21 @@
         android:layout_width="188dp"
         android:layout_height="84dp"
         android:text="ENTER"
-        android:textColor="@color/black"
+        android:background="@color/toodarkred"
+        android:textAlignment="center"
+        android:textColor="@color/white"
         android:textSize="30sp"
         android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.497"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.766" />
 
     <EditText
         android:id="@+id/editTextTextPassword3"
-        android:layout_width="257dp"
-        android:layout_height="59dp"
+        android:layout_width="290dp"
+        android:layout_height="60dp"
         android:layout_marginTop="40dp"
         android:ems="10"
         android:inputType="textPassword"
@@ -58,33 +72,35 @@
 
     <TextView
         android:id="@+id/textView7"
-        android:layout_width="283dp"
+        android:layout_width="290dp"
         android:layout_height="60dp"
-        android:background="@color/green"
+        android:background="@color/red"
         android:text="Enter Secret code:"
-        android:textColor="@color/black"
+        android:textAlignment="center"
+        android:textColor="@color/white"
         android:textSize="33sp"
         android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.359" />
+        app:layout_constraintVertical_bias="0.429" />
 
     <TextView
         android:id="@+id/textView10"
         android:layout_width="327dp"
         android:layout_height="56dp"
-        android:background="@color/medblue"
-        android:text="     HOLA! Admin"
+        android:text="Admin has the secret code, enter the secret code to login as admin:"
+        android:textAlignment="center"
         android:textColor="@color/black"
-        android:textSize="35sp"
+        android:textSize="20sp"
         android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.619"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.094" />
+        app:layout_constraintVertical_bias="0.237" />
 
     <TextView
         android:id="@+id/textView12"
@@ -96,9 +112,17 @@
         android:visibility="invisible"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.407"
+        app:layout_constraintHorizontal_bias="0.322"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/button8"
         app:layout_constraintVertical_bias="0.0" />
+
+    <ImageView
+        android:id="@+id/imageView27"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/bennett" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

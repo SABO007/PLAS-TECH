@@ -4,44 +4,42 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/lightyellow">
+    android:background="@color/lightgreen">
 
     <Button
         android:id="@+id/Buttonstart"
-        android:layout_width="229dp"
-        android:layout_height="71dp"
+        android:layout_width="220dp"
+        android:layout_height="80dp"
         android:text="START"
-        android:textColor="@color/black"
+        android:background="@color/darkgreen"
+        android:textColor="@color/white"
         android:textSize="30sp"
         android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.865"/>
+        app:layout_constraintVertical_bias="0.852" />
 
     <ImageView
         android:id="@+id/imageView"
-        android:layout_width="355dp"
-        android:layout_height="312dp"
+        android:layout_width="327dp"
+        android:layout_height="296dp"
+        android:layout_margin="@dimen/cardview_default_radius"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.492"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.418"
+        app:layout_constraintVertical_bias="0.498"
         app:srcCompat="@drawable/logo" />
 
-    <TextView
-        android:id="@+id/textView5"
-        android:layout_width="199dp"
-        android:layout_height="42dp"
-        android:background="@color/yellow"
-        android:text="   WELCOME!"
-        android:textColor="@color/black"
-        android:textSize="30sp"
-        android:textStyle="bold"
-        tools:layout_editor_absoluteX="106dp"
-        tools:layout_editor_absoluteY="94dp" />
+    <ImageView
+        android:id="@+id/imageView20"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/bennett" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

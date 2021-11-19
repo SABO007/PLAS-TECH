@@ -4,132 +4,147 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/lightyellow">>
+    android:background="@color/blue"><![CDATA[>
+
+    ]]>
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar5"
+        android:layout_width="420dp"
+        android:layout_height="100dp"
+        android:background="@color/darkblue"
+        android:minHeight="?attr/actionBarSize"
+        android:theme="?attr/actionBarTheme"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
     <ImageView
         android:id="@+id/imageView7"
-        android:layout_width="106dp"
-        android:layout_height="94dp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        app:layout_constraintStart_toStartOf="@+id/toolbar5"
+        app:layout_constraintTop_toTopOf="parent"
         app:srcCompat="@drawable/logo" />
 
     <EditText
         android:id="@+id/Customer7"
         android:layout_width="300dp"
         android:layout_height="40dp"
-        android:background="@color/orange"
         android:ems="10"
         android:inputType="textPersonName"
         android:text="Enter City"
+        android:textColor="@color/darkblue"
         android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.495"
+        app:layout_constraintHorizontal_bias="0.486"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.437" />
+        app:layout_constraintTop_toBottomOf="@+id/Customer8"
+        app:layout_constraintVertical_bias="0.111" />
 
     <EditText
         android:id="@+id/Customer9"
         android:layout_width="300dp"
         android:layout_height="40dp"
-        android:background="@color/orange"
         android:ems="10"
         android:inputType="number"
         android:text="Pincode"
+        android:textColor="@color/darkblue"
         android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.495"
+        app:layout_constraintHorizontal_bias="0.486"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.645" />
+        app:layout_constraintVertical_bias="0.522" />
 
     <EditText
         android:id="@+id/Customer6"
         android:layout_width="300dp"
         android:layout_height="40dp"
-        android:background="@color/orange"
         android:ems="10"
         android:inputType="textPersonName"
         android:text="Enter Street/Locality name"
+        android:textColor="@color/darkblue"
         android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.495"
+        app:layout_constraintHorizontal_bias="0.513"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.322" />
+        app:layout_constraintTop_toBottomOf="@+id/Customer5"
+        app:layout_constraintVertical_bias="0.089" />
 
     <EditText
         android:id="@+id/Customer8"
         android:layout_width="300dp"
         android:layout_height="40dp"
-        android:background="@color/orange"
         android:ems="10"
         android:inputType="textPersonName"
         android:text="Enter District"
+        android:textColor="@color/darkblue"
         android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.495"
+        app:layout_constraintHorizontal_bias="0.486"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.535" />
+        app:layout_constraintTop_toBottomOf="@+id/Customer9"
+        app:layout_constraintVertical_bias="0.086" />
 
     <TextView
         android:id="@+id/Customer4"
         android:layout_width="260dp"
         android:layout_height="60dp"
         android:text="Provide your Address:"
+        android:textAlignment="center"
         android:textColor="@color/black"
         android:textSize="26sp"
         android:textStyle="bold"
-        android:background="@color/darkyellow"
 
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.437"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.054" />
+        app:layout_constraintVertical_bias="0.183" />
 
     <EditText
         android:id="@+id/Customer5"
-        android:layout_width="297dp"
+        android:layout_width="300dp"
         android:layout_height="40dp"
-        android:background="@color/orange"
         android:ems="10"
         android:inputType="textPersonName"
         android:text="Enter House No/Plot no"
+        android:textColor="@color/darkblue"
         android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.482"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.217" />
+        app:layout_constraintVertical_bias="0.296" />
 
     <Button
         android:id="@+id/customerbutton3"
         android:layout_width="142dp"
         android:layout_height="63dp"
         android:text="Submit"
-        android:textColor="@color/black"
+        android:background="@color/darkblue"
+        android:textColor="@color/white"
         android:textSize="22sp"
         android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.767" />
+        app:layout_constraintVertical_bias="0.847" />
 
     <Button
         android:id="@+id/buttonback5"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="BACK"
+        android:background="@color/darkblue"
+        android:textColor="@color/white"
         android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -137,5 +152,13 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.976" />
+
+    <ImageButton
+        android:id="@+id/imageButton"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:srcCompat="@tools:sample/avatars" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

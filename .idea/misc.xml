@@ -5,16 +5,19 @@
       <map>
         <entry key="..\:/Users/91998/AndroidStudioProjects/PLAS-TECH/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.19583333333333333" />
         <entry key="..\:/Users/91998/AndroidStudioProjects/PLAS-TECH/app/src/main/res/drawable/ic_launcher_background.xml" value="0.19583333333333333" />
+        <entry key="..\:/Users/91998/AndroidStudioProjects/PLAS-TECH/app/src/main/res/layout/activity_akash.xml" value="0.1796875" />
+        <entry key="..\:/Users/91998/AndroidStudioProjects/PLAS-TECH/app/src/main/res/layout/activity_harsha.xml" value="0.1796875" />
+        <entry key="..\:/Users/91998/AndroidStudioProjects/PLAS-TECH/app/src/main/res/layout/activity_sourav.xml" value="0.22" />
         <entry key="..\:/Users/91998/AndroidStudioProjects/PLAS-TECH/app/src/main/res/layout/admin_akash.xml" value="0.1796875" />
         <entry key="..\:/Users/91998/AndroidStudioProjects/PLAS-TECH/app/src/main/res/layout/admin_harsha.xml" value="0.1796875" />
         <entry key="..\:/Users/91998/AndroidStudioProjects/PLAS-TECH/app/src/main/res/layout/admin_sashank.xml" value="0.22" />
         <entry key="..\:/Users/91998/AndroidStudioProjects/PLAS-TECH/app/src/main/res/layout/admin_saurav.xml" value="0.1796875" />
         <entry key="..\:/Users/91998/AndroidStudioProjects/PLAS-TECH/app/src/main/res/layout/admininterface.xml" value="0.22" />
-        <entry key="..\:/Users/91998/AndroidStudioProjects/PLAS-TECH/app/src/main/res/layout/adminmodule.xml" value="0.22" />
-        <entry key="..\:/Users/91998/AndroidStudioProjects/PLAS-TECH/app/src/main/res/layout/adminuser.xml" value="0.16666666666666666" />
+        <entry key="..\:/Users/91998/AndroidStudioProjects/PLAS-TECH/app/src/main/res/layout/adminmodule.xml" value="0.13333333333333333" />
+        <entry key="..\:/Users/91998/AndroidStudioProjects/PLAS-TECH/app/src/main/res/layout/adminuser.xml" value="0.22" />
         <entry key="..\:/Users/91998/AndroidStudioProjects/PLAS-TECH/app/src/main/res/layout/conclusion.xml" value="0.22" />
         <entry key="..\:/Users/91998/AndroidStudioProjects/PLAS-TECH/app/src/main/res/layout/customer.xml" value="0.22" />
-        <entry key="..\:/Users/91998/AndroidStudioProjects/PLAS-TECH/app/src/main/res/layout/customer2.xml" value="0.1796875" />
+        <entry key="..\:/Users/91998/AndroidStudioProjects/PLAS-TECH/app/src/main/res/layout/customer2.xml" value="0.22" />
         <entry key="..\:/Users/91998/AndroidStudioProjects/PLAS-TECH/app/src/main/res/layout/logindetails.xml" value="0.16666666666666666" />
         <entry key="..\:/Users/91998/AndroidStudioProjects/PLAS-TECH/app/src/main/res/layout/signupdetails.xml" value="0.1796875" />
         <entry key="..\:/Users/91998/AndroidStudioProjects/PLAS-TECH/app/src/main/res/layout/start.xml" value="0.22" />

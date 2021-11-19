@@ -4,90 +4,87 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/lightyellow">>
+    android:background="@color/blue"><![CDATA[>
+
+
+
+
+
+
+
+
+
+    ]]>
 
     <TextView
-        android:id="@+id/Customer1"
-        android:layout_width="343dp"
-        android:layout_height="92dp"
-        android:background="@color/darkyellow"
-        android:text="Please describe the problems faced because of the garbage:"
+        android:id="@+id/customer"
+        android:layout_width="260dp"
+        android:layout_height="60dp"
+        android:text="Describe here:"
+        android:textAlignment="center"
         android:textColor="@color/black"
-        android:textSize="25sp"
+        android:textSize="26sp"
         android:textStyle="bold"
+
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.437"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.046" />
+        app:layout_constraintVertical_bias="0.183" />
 
     <EditText
         android:id="@+id/CustomerProblems"
-        android:layout_width="310dp"
-        android:layout_height="80dp"
-        android:layout_marginTop="20dp"
+        android:layout_width="315dp"
+        android:layout_height="70dp"
         android:ems="10"
-        android:background="@color/orange"
         android:inputType="textLongMessage|none"
         android:text="Enter the entire description here"
-        android:textColor="@color/black"
-        android:textStyle="bold"
+        android:textColor="@color/darkblue"
         android:textSize="21sp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.495"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/Customer1"
-        app:layout_constraintVertical_bias="0.004" />
-
-    <TextView
-        android:id="@+id/Customer2"
-        android:layout_width="310dp"
-        android:layout_height="80dp"
-        android:background="@color/orange"
-        android:text="Please specify the type of waste:"
-        android:textColor="@color/black"
-        android:textSize="22sp"
         android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.425" />
+        app:layout_constraintVertical_bias="0.325" />
 
-    <ImageView
-        android:id="@+id/imageView3"
-        android:layout_width="106dp"
-        android:layout_height="94dp"
+    <TextView
+        android:id="@+id/Customer2"
+        android:layout_width="315dp"
+        android:layout_height="70dp"
+        android:layout_marginBottom="252dp"
+        android:text="Please specify the type of waste:"
+        android:textColor="@color/darkblue"
+        android:textSize="22sp"
+        android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:srcCompat="@drawable/logo" />
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/CustomerType" />
 
     <EditText
         android:id="@+id/CustomerType"
-        android:layout_width="310dp"
-        android:layout_height="80dp"
+        android:layout_width="315dp"
+        android:layout_height="70dp"
         android:ems="10"
         android:inputType="textPersonName"
         android:text="Specify the type here"
-        android:background="@color/orange"
-        android:textStyle="bold"
-        android:textColor="@color/black"
+        android:textColor="@color/darkblue"
         android:textSize="22sp"
+        android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.497"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/Customer2"
-        app:layout_constraintVertical_bias="0.078" />
+        app:layout_constraintTop_toBottomOf="@+id/CustomerProblems"
+        app:layout_constraintVertical_bias="0.045" />
 
     <TextView
         android:id="@+id/Customer3"
         android:layout_width="195dp"
         android:layout_height="77dp"
-        android:background="@color/orange"
         android:text="Upload the garbage images here:"
-        android:textColor="@color/black"
+        android:textColor="@color/darkblue"
         android:textSize="20sp"
         android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -98,25 +95,12 @@
         app:layout_constraintVertical_bias="0.77" />
 
     <Button
-        android:id="@+id/Customerbutton1"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Upload"
-        android:textColor="@color/black"
-        android:textStyle="bold"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.823"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.748" />
-
-    <Button
         android:id="@+id/Customerbutton2"
         android:layout_width="137dp"
         android:layout_height="79dp"
         android:text="Next"
-        android:textColor="@color/dracula"
+        android:background="@color/darkblue"
+        android:textColor="@color/white"
         android:textSize="22sp"
         android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -130,6 +114,8 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="LOG OUT"
+        android:background="@color/darkblue"
+        android:textColor="@color/white"
         android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -137,5 +123,35 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.976" />
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="420dp"
+        android:layout_height="100dp"
+        android:background="@color/darkblue"
+        android:minHeight="?attr/actionBarSize"
+        android:theme="?attr/actionBarTheme"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.555"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <ImageView
+        android:id="@+id/imageView16"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:srcCompat="@tools:sample/avatars" />
+
+    <ImageView
+        android:id="@+id/imageView18"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/logo" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

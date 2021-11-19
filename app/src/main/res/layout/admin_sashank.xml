@@ -7,12 +7,25 @@
     android:background="@color/lightred"
     tools:context=".Sashank">
 
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar9"
+        android:layout_width="420dp"
+        android:layout_height="100dp"
+        android:background="@color/toodarkred"
+        android:minHeight="?attr/actionBarSize"
+        android:theme="?attr/actionBarTheme"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
     <Button
         android:id="@+id/buttonback3"
         android:layout_width="85dp"
         android:layout_height="47dp"
         android:text="BACK"
         android:textColor="@color/white"
+        android:background="@color/toodarkred"
         android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -20,19 +33,6 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.976" />
-
-    <ImageView
-        android:id="@+id/imageView14"
-        android:layout_width="87dp"
-        android:layout_height="80dp"
-        android:layout_margin="@dimen/cardview_default_radius"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="1.0"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="1.0"
-        app:srcCompat="@drawable/logo" />
 
     <TextView
         android:id="@+id/customertypecreator"
@@ -43,9 +43,10 @@
         android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.429"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.674" />
+        app:layout_constraintTop_toBottomOf="@+id/customeraddresscreator"
+        app:layout_constraintVertical_bias="0.077" />
 
     <TextView
         android:id="@+id/customeraddresscreator"
@@ -56,25 +57,27 @@
         android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.429"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.518" />
+        app:layout_constraintTop_toBottomOf="@+id/customernumbercreator"
+        app:layout_constraintVertical_bias="0.076" />
 
     <TextView
         android:id="@+id/adminsashank1"
         android:layout_width="291dp"
         android:layout_height="60dp"
-        android:background="@color/red"
-        android:text="      Hello Creator!"
+        android:text="Hi Sashank.."
+        android:textAlignment="center"
         android:textColor="@color/white"
         android:textColorHighlight="@color/black"
         android:textSize="30sp"
         android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.043" />
+        app:layout_constraintVertical_bias="0.038" />
 
     <TextView
         android:id="@+id/customernamecreator"
@@ -85,9 +88,10 @@
         android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.429"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.197" />
+        app:layout_constraintVertical_bias="0.254" />
 
     <TextView
         android:id="@+id/customernumbercreator"
@@ -98,15 +102,18 @@
         android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.429"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.369" />
+        app:layout_constraintTop_toBottomOf="@+id/customernamecreator"
+        app:layout_constraintVertical_bias="0.065" />
 
     <Button
         android:id="@+id/adminsashank2"
         android:layout_width="250dp"
         android:layout_height="70dp"
         android:text="Garbage Picture"
+        android:background="@color/toodarkred"
+        android:textColor="@color/white"
         android:textSize="22sp"
         android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -115,5 +122,13 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.8" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/sashank" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

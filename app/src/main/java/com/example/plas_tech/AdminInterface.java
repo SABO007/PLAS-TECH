@@ -30,7 +30,7 @@ public class AdminInterface extends AppCompatActivity {
                 new View.OnClickListener() {
                     @Override
                     public void onClick(View view) {
-                        Intent categoryIntent=new Intent(AdminInterface.this,Sashank.class);
+                        Intent categoryIntent=new Intent(AdminInterface.this,Harsha.class);
                         startActivity(categoryIntent);
                         finish();
                     }
@@ -42,7 +42,7 @@ public class AdminInterface extends AppCompatActivity {
                 new View.OnClickListener() {
                     @Override
                     public void onClick(View view) {
-                        Intent categoryIntent=new Intent(AdminInterface.this,Sashank.class);
+                        Intent categoryIntent=new Intent(AdminInterface.this,Akash.class);
                         startActivity(categoryIntent);
                         finish();
                     }
@@ -54,7 +54,7 @@ public class AdminInterface extends AppCompatActivity {
                 new View.OnClickListener() {
                     @Override
                     public void onClick(View view) {
-                        Intent categoryIntent=new Intent(AdminInterface.this,Sashank.class);
+                        Intent categoryIntent=new Intent(AdminInterface.this,Sourav.class);
                         startActivity(categoryIntent);
                         finish();
                     }

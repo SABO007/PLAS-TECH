@@ -5,93 +5,109 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/lightred"
+    android:background="@color/lightgreen"
     tools:context=".Conclusion">
+
+  <androidx.appcompat.widget.Toolbar
+      android:id="@+id/toolbar10"
+      android:layout_width="420dp"
+      android:layout_height="100dp"
+      android:background="@color/darkgreen"
+      android:minHeight="?attr/actionBarSize"
+      android:theme="?attr/actionBarTheme"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintHorizontal_bias="0.0"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toTopOf="parent" />
 
   <Button
       android:id="@+id/buttonback8"
       android:layout_width="100dp"
       android:layout_height="53dp"
+      android:background="@color/darkgreen"
       android:text="Back to Start Page"
-      android:textColor="@color/black"
+      android:textColor="@color/white"
       android:textStyle="bold"
       app:layout_constraintBottom_toBottomOf="parent"
       app:layout_constraintEnd_toEndOf="parent"
-      app:layout_constraintHorizontal_bias="0.845"
-      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintStart_toEndOf="@+id/buttonback7"
       app:layout_constraintTop_toTopOf="parent"
-      app:layout_constraintVertical_bias="0.79" />
+      app:layout_constraintVertical_bias="0.926" />
 
   <Button
       android:id="@+id/buttonback7"
       android:layout_width="100dp"
       android:layout_height="53dp"
+      android:background="@color/darkgreen"
       android:text="Back to Report Page"
-      android:textColor="@color/black"
+      android:textColor="@color/white"
       android:textStyle="bold"
       app:layout_constraintBottom_toBottomOf="parent"
       app:layout_constraintEnd_toEndOf="parent"
-      app:layout_constraintHorizontal_bias="0.163"
+      app:layout_constraintHorizontal_bias="0.257"
       app:layout_constraintStart_toStartOf="parent"
       app:layout_constraintTop_toTopOf="parent"
-      app:layout_constraintVertical_bias="0.79" />
+      app:layout_constraintVertical_bias="0.926" />
 
   <TextView
       android:id="@+id/textView11"
       android:layout_width="300dp"
       android:layout_height="89dp"
-      android:text="We will reach back to you in a day or two..."
+      android:text="We will reach back to you in a day or two via email..."
+      android:textColor="@color/darkblue"
       android:textSize="25sp"
       android:textStyle="bold"
-      android:background="@color/lightred"
       app:layout_constraintBottom_toBottomOf="parent"
       app:layout_constraintEnd_toEndOf="parent"
-      app:layout_constraintHorizontal_bias="0.351"
+      app:layout_constraintHorizontal_bias="0.234"
       app:layout_constraintStart_toStartOf="parent"
       app:layout_constraintTop_toTopOf="parent"
-      app:layout_constraintVertical_bias="0.401" />
+      app:layout_constraintVertical_bias="0.535" />
 
   <ImageView
       android:id="@+id/imageView15"
-      android:layout_width="87dp"
-      android:layout_height="80dp"
+      android:layout_width="100dp"
+      android:layout_height="100dp"
       android:layout_margin="@dimen/cardview_default_radius"
-      app:layout_constraintBottom_toBottomOf="parent"
-      app:layout_constraintEnd_toEndOf="parent"
-      app:layout_constraintHorizontal_bias="1.0"
       app:layout_constraintStart_toStartOf="parent"
       app:layout_constraintTop_toTopOf="parent"
-      app:layout_constraintVertical_bias="1.0"
       app:srcCompat="@drawable/logo" />
 
   <TextView
       android:id="@+id/textView6"
-      android:layout_width="300dp"
-      android:layout_height="44dp"
-      android:text="Thanks for the report..!"
-      android:background="@color/lightred"
-      android:textSize="25sp"
+      android:layout_width="327dp"
+      android:layout_height="59dp"
+      android:text="Thanks for the report..."
+      android:textColor="@color/darkblue"
+      android:textSize="30sp"
       android:textStyle="bold"
       app:layout_constraintBottom_toBottomOf="parent"
       app:layout_constraintEnd_toEndOf="parent"
-      app:layout_constraintHorizontal_bias="0.351"
       app:layout_constraintStart_toStartOf="parent"
       app:layout_constraintTop_toTopOf="parent"
-      app:layout_constraintVertical_bias="0.282" />
+      app:layout_constraintVertical_bias="0.203" />
 
   <TextView
       android:id="@+id/textView14"
       android:layout_width="159dp"
       android:layout_height="63dp"
       android:text="-Team PLAS-TECH"
-      android:background="@color/orange"
+      android:textColor="@color/black"
       android:textSize="22sp"
       android:textStyle="bold"
       app:layout_constraintBottom_toBottomOf="parent"
       app:layout_constraintEnd_toEndOf="parent"
-      app:layout_constraintHorizontal_bias="0.873"
+      app:layout_constraintHorizontal_bias="0.936"
       app:layout_constraintStart_toStartOf="parent"
       app:layout_constraintTop_toTopOf="parent"
-      app:layout_constraintVertical_bias="0.573" />
+      app:layout_constraintVertical_bias="0.67" />
+
+  <ImageView
+      android:id="@+id/imageView26"
+      android:layout_width="100dp"
+      android:layout_height="100dp"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintTop_toTopOf="parent"
+      tools:srcCompat="@tools:sample/avatars" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
